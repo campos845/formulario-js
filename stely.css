@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #5191c1;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a4b75;
+    color: #5191c1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1e6495;
+  }
+  
+  #dados {
+    margin-top: 20px;
+    border-top: 1px solid #5191c1;
+    padding-top: 20px;
+  }
+  
+  #dados strong {
+    color: #5191c1;
+  }
+  
+  #dados br {
+    display: none;
+  }
+  
+  #dados br + strong {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #dados br + strong::before {
+    content: ' | ';
+    color: #3fd97f;
+  }
+  
